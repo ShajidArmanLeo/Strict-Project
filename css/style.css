@@ -1,0 +1,287 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+header{
+	padding: 28px 0;
+    background: white;
+}
+
+.banner-section{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+}
+
+
+.banner{
+	padding-top: 175px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.banner h3{
+	color: white;
+    font-weight: bold;
+    font-size: 110px;
+    text-transform: uppercase;
+
+}
+
+.banner span{
+	 border-bottom: 1px solid #15a4fa;
+	 display: block;
+	 width: 74%;
+	 margin: 30px auto;
+}
+
+.banner p{
+
+	color: white;
+
+	margin: 30px 0;
+
+	font-size: 18px;
+}
+
+.call-btn{
+
+	background: transparent;
+
+	color: white;
+
+	border: 1px solid #15a4fa;
+
+	padding: 7px 11px;
+}
+
+.bottom-icon{
+
+	color: white;
+
+	margin-top: 170px;
+
+	margin-bottom: 20px;
+
+	font-size: 19px;
+}
+
+.design{
+	width: 100%;
+	float: left;
+	margin: 10px auto;
+	
+	background: #f6f9f9;
+}
+
+.design-text{
+   
+   text-align: center;
+
+}
+.design-text h2{
+
+margin: 20px;
+}
+
+.design-text p{
+
+	padding: 0 153px;
+
+	margin-bottom: 67px;
+}
+
+.feature{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+}  
+
+.feature-one{
+	width: 31%;
+	float: left;
+	text-align: center;
+	padding: 0 0px;
+}
+
+.feature-one h4{
+	margin: 14px 0;
+}
+
+.feature-one p{
+
+	padding: 0 18px;
+
+	margin-bottom: 13px;
+}
+.icon{
+	    width: 89px;
+	    background: #48baff;
+	    height: 73px;
+	    line-height: 76px;
+	    text-align: center;
+	    color: white;
+	    font-size: 33px;
+	    margin: 0 auto;
+	    display: block;
+	    position: relative;
+}
+
+.icon::after{
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: #5fc3ff;
+	right: 0;
+	opacity: 0.4;
+}
+
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+	background: #f6f9f9;
+}
+
+.porfolio-text{
+
+text-align: center;
+}
+
+.porfolio-text h3{
+	
+	margin: 14px;
+		
+	font-size: 31px;
+		
+	font-weight: 200;
+}
+
+.porfolio-text p{
+	
+	text-transform: capitalize;
+		
+	margin-bottom: 64px;
+}
+
+.showcase{
+	width: 30%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin: 8px 10px;
+}
+
+.showcase:hover .hover{
+	right: 0;
+
+}
+
+.showcase img{
+
+	width: 100%;
+}
+
+
+.hover{
+	
+	width: 100%;
+		
+	height: 100%;
+		
+	background: #2cacf787;
+		
+	position: absolute;
+		
+	top: 0;
+		
+	right: -100%;
+}
+
+i.fa.fa-search-plus {
+    top: 54%;
+    left: 40%;
+    position: absolute;
+    background: lightblue;
+    border: 1px solid white;
+    padding: 4px 6px;
+}
+
+i.fa.fa-exchange {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    background: lightblue;
+    border: 1px solid white;
+    padding: 4px 6px;
+}
+
+
+.form{
+	width: 100%;
+	float: left;
+	background: url(../img/form.jpg)no-repeat;
+	background-size: cover;
+	padding: 25px 0;
+}
+
+.form-text{
+	text-align: center;
+	padding: 14px 0;
+}
+
+.form-text h3{
+	color: white;
+	margin: 12px 0px;
+	font-weight: 100;
+	font-size: 47px;
+}
+
+.form-text p{
+	color: white;
+	font-size: 12px;
+	font-weight: lighter;
+	margin-bottom: 24px;
+}
+
+.form-design input {
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 14px;
+    margin: 4px;
+    width: 29%;
+}
+
+
+.form-control {
+    text-align: center;
+}
+
+.form-design {
+    padding: 8px;
+}
+
+textarea {
+    width: 333px;
+    height: 110px;
+    padding: 10px;
+    background: transparent;
+    color: gray;
+}
+
+button{
+ 	    padding: 7px 32px;
+    background: transparent;
+    color: white;
+    border: 1px solid skyblue;
+}
